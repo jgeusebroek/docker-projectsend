@@ -4,7 +4,7 @@
 project_name: docker-projectsend
 external_type: na
 release_type: stable
-custom_version_command: "echo r1070"
+custom_version_command: "echo r1295"
 release_tag: latest
 ls_branch: master
 repo_vars:
