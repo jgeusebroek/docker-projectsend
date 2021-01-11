@@ -51,8 +51,6 @@ cd "${PREV_DIR}" || exit
 # create symlinks
 [[ ! -L /var/www/localhost/htdocs/upload ]] && \
 	ln -sf /data/projectsend /var/www/localhost/htdocs/upload
-[[ ! -L /var/www/localhost/htdocs/img/custom ]] && \
-	ln -sf /config/projectsend/images /var/www/localhost/htdocs/img/custom
 
 [[ -f /var/www/localhost/htdocs/includes/sys.config.php ]] && \
 	rm /var/www/localhost/htdocs/includes/sys.config.php
